@@ -7,7 +7,7 @@ public class Clock
     int sec;
     static int rationalize_return;
 
-    public int rationalize(int hr, int min, int sec)
+    public int rationalize()
     {
         if(hr>23 || min>59 || sec>59)
         {
@@ -24,7 +24,7 @@ public class Clock
         this.min=min;
         this.sec=sec;
 
-        rationalize(hr, min, sec);
+        rationalize();
     }
     
     public static void main(String[] args)
