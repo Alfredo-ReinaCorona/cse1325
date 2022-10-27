@@ -2,7 +2,6 @@
 #include <string>
 #include <algorithm>
 
-using namespace std;
 
 int main(int argc, char** argv)
 {
@@ -21,6 +20,6 @@ int main(int argc, char** argv)
     
     for(int z=0;z<argc;z++)
     {
-        cout<<save_argv[z]<<"\n";
+        std::cout<<save_argv[z]<<"\n";
     }
 }
