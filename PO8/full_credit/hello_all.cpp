@@ -1,15 +1,17 @@
 #include <iostream>
 #include <string>
+#include <algorithm>
 
-using namespace std;
 
-int main()
+int main(int argc, char** argv)
 {
-    string name;
+    std::string name;
 
-    cout<<"What is your name? \n";
+    std::cout<<"What is your name \n";
 
-    getline(cin,name);
+    std::getline(std::cin,name);
 
-    cout<<"Hello, "<<name<<"!\n";
+    std::cout<<"Hello "<<name<<"!\n";
+
+
 }
